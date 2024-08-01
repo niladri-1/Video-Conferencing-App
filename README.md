@@ -1,103 +1,96 @@
-# Video Conferencing App
+# 📹 Video Conferencing App
 
-## Overview
+## 🚀 Table of Contents
 
-Welcome to the Video Conferencing App! This project showcases the development of a robust and feature-rich video conferencing application using cutting-edge web technologies. The app offers seamless user authentication, dynamic meeting management, real-time screen sharing, and much more.
-
-## Features
-
-- **User Authentication**: Secure account creation and sign-in with Clerk.
-- **Video Meetings**: Easily initiate, join, and manage video meetings.
-- **Screen Sharing**: Share your screen with participants during meetings.
-- **Reactions**: Enhance interactions with emoji reactions.
-- **Recording**: Record meetings for future reference.
-- **Scheduling**: Schedule future meetings with ease.
-- **History**: Access past meetings and recordings.
-- **Join via Link**: Effortlessly join meetings using a shared link.
-
-## Technologies Used
-
-- **Next.js 14**: Powerful framework for building the application.
-- **TypeScript**: Ensures code maintainability and scalability.
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-- **Clerk**: Simplifies user authentication and management.
-- **Stream**: Provides reliable video and audio functionalities.
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js
-- npm or yarn
-- Clerk API keys
-- Stream API keys
-
-### Installation
-
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/niladri-1/Zoom-clone.git
-    cd Zoom-clone
-    ```
-
-2. **Install dependencies**
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-3. **Set up environment variables**
-
-    Create a `.env.local` file in the root directory and add your Clerk and Stream API keys:
-    ```env
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<YOUR_CLERK_PUBLIC_KEY>
-
-    CLERK_SECRET_KEY=<YOUR_CLERK_SECRET_KEY>
-    
-    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-    ```
-
-### Running the App
-
-1. **Start the development server**
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
-
-2. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
-
-## Deployment
-
-Deploy the app to Vercel by connecting your GitHub repository and following the Vercel deployment steps.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your changes. Make sure to follow the project's coding standards and guidelines.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [Next.js](https://nextjs.org/)
-- [Clerk](https://clerk.dev/)
-- [Stream](https://getstream.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-## Contact
-
-For any questions or inquiries, feel free to reach out to the project maintainer:
-
-- **Niladri Chatterjee**
-  - [GitHub](https://github.com/niladri-1)
-  - [LinkedIn](https://linkedin.com/in/niladri1)
-  - [Email](mailto:code.niladri@gmail.com)
+1. [📦 Technologies Used](#technologies-used)
+2. [🔧 Installation](#installation)
+3. [💻 Usage](#usage)
+4. [📄 Key Pages](#key-pages)
+5. [✨ Features](#features)
 
 ---
 
-Enjoy building and enhancing your own video conferencing application with this project!
+## 📦 Technologies Used
+
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid UI development.
+- **[React.js](https://react.dev/)** - JavaScript library for building user interfaces.
+- **[Next.js](https://nextjs.org/)** - React framework for server-rendered applications.
+- **[Clerk](https://clerk.dev/)** - Frontend user management platform for authentication and user management.
+- **[Stream](https://getstream.io/)** - Scalable and secure chat and video application services.
+
+---
+
+## 🔧 Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/niladri-1/Zoom-clone.git
+   cd Zoom-clone
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+
+   - Create a `.env.local` file in the root directory.
+   - Add your Clerk and Stream API keys:
+
+     ```env
+     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
+     CLERK_SECRET_KEY=""
+
+     NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+     NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+     NEXT_PUBLIC_STREAM_API_KEY=""
+     STREAM_SECRET_KEY=""
+     ```
+
+---
+
+## 💻 Usage
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+Visit [`http://localhost:3000`](http://localhost:3000) in your browser to view and interact with the app.
+
+---
+
+## 📄 Key Pages
+
+- **Sign In:** `/sign-in` - Authentication page for user login.
+- **Create Meeting:** `/create-meeting` - Interface to create new meetings.
+- **Join Meeting:** `/join-meeting` - Page to join existing meetings.
+- **Meeting Room:** `/meeting/:meetingId` - The main meeting interface featuring video calls, chat, and more.
+
+---
+
+## ✨ Features
+
+- **User Authentication:** Secure login and registration with Clerk.
+- **Video and Audio Calls:** High-quality video conferencing powered by Stream.
+- **Screen Sharing:** Effortlessly share your screen with meeting participants.
+- **Chat:** Engage in real-time messaging during meetings.
+- **Meeting Rooms:** Seamlessly create and join meeting rooms.
+- **Responsive Design:** Accessible and fully responsive UI built with Tailwind CSS.
+
+---
+
+### 🎨 Enjoy using the Video Conferencing App!
+
+Feel free to reach out if you have any questions or need assistance. Happy conferencing! 🎉
+
+---
+
+This format provides clarity and organization for users navigating your documentation. Let me know if you need any more adjustments!
